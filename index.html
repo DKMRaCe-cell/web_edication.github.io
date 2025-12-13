@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comment créer un site web</title>
+   <meta name="description" content="Guide complet pour les débutants en développement web avec GitHub.">
+    <meta name="author" content="DAGBEDJI Koba Mathias">
+
+    <!-- Open Graph pour les réseaux sociaux -->
+    <meta property="og:title" content="comment créer un site web">
+    <meta property="og:description" content="Guide complet pour les débutants en développement web avec GitHub.">
+    <meta property="og:image" content="photo.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://comment créer un site web.github.io">
+
+   <style>
+      /* Reset basique */
+      * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      body {
+         background-color: #f8f9fa;
+         color: #333;
+         line-height: 1.6;
+         padding: 20px;
+      }
+
+      .container {
+         max-width: 1000px;
+         margin: 0 auto;
+         padding: 20px 30px;
+         background-color: #fff;
+         border-radius: 15px;
+         box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      }
+
+      /* Menu navigation */
+      nav {
+         display: flex;
+         justify-content: center;
+         margin-bottom: 30px;
+         flex-wrap: wrap;
+      }
+
+      nav a {
+         margin: 5px 15px;
+         text-decoration: none;
+         color: #6a0dad;
+         font-weight: bold;
+         transition: color 0.3s;
+      }
+
+      nav a:hover {
+         color: #b58900;
+      }
+
+      h1 {
+         color: #b58900;
+         font-size: 2.5em;
+         text-align: center;
+         margin-bottom: 30px;
+      }
+
+      h2 {
+         color: #6a0dad;
+         font-size: 2em;
+         border-bottom: 2px solid #6a0dad;
+         padding-bottom: 5px;
+         margin-top: 40px;
+         margin-bottom: 20px;
+      }
+
+      h3 {
+         color: #333;
+         font-size: 1.5em;
+         margin-top: 25px;
+      }
+
+      h4 {
+         color: #555;
+         font-size: 1.3em;
+         margin-top: 20px;
+      }
+
+      h5 {
+         color: #444;
+         font-size: 1.1em;
+         margin-top: 15px;
+      }
+
+      p {
+         margin-bottom: 15px;
+      }
+
+      ul {
+         margin-left: 20px;
+         margin-bottom: 20px;
+      }
+
+      li {
+         margin-bottom: 10px;
+      }
+
+      strong {
+         color: #b58900;
+      }
+
+      img {
+         max-width: 200px;
+         border-radius: 10px;
+         display: block;
+         margin: 10px 0;
+      }
+
+      video {
+         max-width: 100%;
+         border-radius: 10px;
+         margin: 15px 0;
+         box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      }
+
+      .step {
+         border-left: 5px solid #6a0dad;
+         padding: 15px 20px;
+         margin-bottom: 30px;
+         background-color: #f3f2f8;
+         border-radius: 10px;
+      }
+
+      .tip {
+         background-color: #fff3cd;
+         border-left: 5px solid #ffc107;
+         padding: 10px 15px;
+         margin: 15px 0;
+         border-radius: 8px;
+      }
+
+      .media-section {
+         margin-bottom: 30px;
+      }
+
+      footer {
+         background-color: #6a0dad;
+         color: #fff;
+         text-align: center;
+         padding: 20px;
+         border-radius: 10px;
+         margin-top: 40px;
+      }
+
+      footer a {
+         color: #ffd700;
+         text-decoration: none;
+         margin: 0 10px;
+      }
+
+      footer a:hover {
+         text-decoration: underline;
+      }
+
+      @media (max-width: 768px) {
+         h1 {
+            font-size: 2em;
+         }
+         h2 {
+            font-size: 1.5em;
+         }
+         nav a {
+            margin: 5px 10px;
+         }
+      }
+   </style>
+</head>
+<body>
+
+<div class="container">
+    <h1><strong>Comment créer ton premier site web avec GitHub ?</strong></h1>
+
+    <!-- Menu de navigation -->
+    <nav>
+        <a href="https://dkmrace-cell.github.io/tutodkmrace.github.io/" target="_blank">Tutoriels APPRENDRE HTML/CSS - DKM RaCe</a>
+        
+        <a href="#liens">Liens utiles</a>
+    </nav>
+
+    <h2 id="etape1">Étape 1 : Plan du site (la maquette)</h2>
+    <div class="step">
+        <p>C'est la partie théorique de l'exercice. Elle consiste à créer une maquette pour le site que vous souhaitez développer.</p>
+        <p>À ce niveau, vous serez invité à dessiner votre site sur un brouillon (tablette, cahier de notes ou tout support confortable). Dans ce dessin, seront visibles le style de votre site ainsi que le contenu si vous êtes débutant.</p>
+        <div class="tip"><strong>Astuce :</strong> Même un simple dessin à main levée aide énormément pour structurer votre site.</div>
+    </div>
+
+    <h2 id="etape2">Étape 2 : L'écriture</h2>
+    <div class="step">
+        <h3>Outils nécessaires</h3>
+        <ul>
+            <li>Visual Studio Code (VS Code) — Valable sur Android et PC <br><img src="logo_VScode.jpg" alt="logo VS Code"></li>
+            <li>Trebedit (pour Android) <br><img src="logo_Trebedit.jpg" alt="Trebedit"></li>
+            <li>Ou n'importe quel type de bloc-notes (sur PC ou Android).</li>
+        </ul>
+        <p>Nous recommandons <strong>Trebedit</strong> pour les utilisateurs de smartphone et <strong>VS Code</strong> pour les utilisateurs d'ordinateur.</p>
+    </div>
+
+    <h2 id="creation">La création du projet</h2>
+
+    <div class="step">
+        <h3>I. Trebedit</h3>
+        <p><strong>IMPORTANT :</strong> Si votre site n'inclut qu'une seule page, nommez le fichier "<strong>index.html</strong>". Si votre site comporte plusieurs pages, la page d'accueil doit également être nommée "<strong>index.html</strong>".</p>
+        <p>Écrivez votre code directement dans ce fichier et placez tous les fichiers multimédias dans le même dossier.</p>
+        <div class="media-section">
+            <h5>Vidéo illustrative</h5>
+            <video width="640" height="360" controls>
+                <source src="vidéo_treb.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la lecture vidéo.
+            </video>
+            <div class="tip"><strong>Astuce :</strong> Exportez votre projet sur votre appareil pour le publier ensuite sur GitHub.</div>
+
+            <h5>Vidéo illustrative</h5>
+            <video width="640" height="360" controls>
+                <source src="vidéo_export.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la lecture vidéo.
+            </video>
+        </div>
+
+        <h3>II. VS Code</h3>
+        <p><strong>IMPORTANT :</strong> Créez d'abord un dossier pour votre projet dans l'explorateur de fichiers, puis utilisez VS Code pour écrire votre code. N'oubliez pas de nommer la page principale "<strong>index.html</strong>" et de placer vos fichiers multimédias dans le même dossier.</p>
+    </div>
+
+    <h2 id="etape3">Étape 3 : La mise en ligne</h2>
+    <div class="step media-section">
+        <h5>Vidéo illustrative (GitHub Pages)</h5>
+        <video width="640" height="360" controls>
+            <source src="vidéo_line.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la lecture vidéo.
+        </video>
+        <div class="tip"><strong>Astuce :</strong> Suivez les instructions de GitHub Pages pour mettre votre site en ligne et le partager facilement.</div>
+    </div>
+
+    <h2 id="liens">Liens utiles</h2>
+    <div class="step">
+        <ul>
+            <li><a href="https://github.com/join" target="_blank">Créer un compte GitHub</a></li>
+            <li><a href="https://pages.github.com/" target="_blank">GitHub Pages</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=com.trebedit" target="_blank">Trebedit sur Google Play</a></li>
+            <li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></li>
+            <li><a href="https://dkmrace-cell.github.io/tutodkmrace.github.io/" target="_blank">Tutoriels APPRENDRE HTML/CSS - DKM RaCe</a></li>
+        </ul>
+    </div>
+</div>
+
+<footer>
+    <p>WEB EDUCATION - Guide pratique pour débutants en développement web.</p>
+    
+    <p>&copy; 2025 Mathias DAGBEDJI
+    <a href="https://wa.me/2290192262513" target="_blank"> <br>💬 WhatsApp</a></p>
+</footer>
+
+</body>
+</html>
